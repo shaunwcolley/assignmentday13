@@ -1,0 +1,20 @@
+#blocks {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  width: 95%;
+}
+#blocks div {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+#blocks img {
+  width: 150px;
+  height: 150px;
+}
+
+#blocks p {
+  width: 150px;
+}

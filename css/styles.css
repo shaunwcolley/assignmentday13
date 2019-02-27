@@ -1,0 +1,30 @@
+/* For better aesthetic,
+Ad will display only on a larger screen,
+i.e., tablets and desktop. */
+
+@media only screen and (min-width : 415px) and (max-width : 1039px) {
+  #advertisement {
+    display: none;
+  }
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu {
+  list-style: none;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  padding: 5px;
+  color: white;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+}
+
+#menu li {
+  padding-right: 40px;
+}

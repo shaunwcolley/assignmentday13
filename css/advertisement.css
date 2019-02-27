@@ -1,0 +1,33 @@
+#advertisement {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/ad-background.jpeg");
+  background-size: cover;
+  margin-left: 185px;
+  width: 600px;
+  height: 100px;
+  font-weight: 800;
+  align-items: flex-end;
+}
+#advertisement h4 {
+margin-top: 0px;
+margin-bottom: 2px;
+color: darkblue;
+}
+#advertisement p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+  color: darkblue;
+  font-size: 12px;
+  width: 365px;
+  text-align: right;
+
+}
+#advertisement .banner {
+  margin: 5px;
+  padding-right: 5px;
+  background-color: darkred;
+  width: 46%;
+  color: black;
+}
